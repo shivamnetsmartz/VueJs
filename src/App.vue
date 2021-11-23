@@ -1,15 +1,24 @@
 <template>
+<div id="app">
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!-- <Home data="Shivam Bhatia" msg="we are working on vuejs" />
+  <Condition /> -->
+  <ForLoop />
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+// import Home from './components/Home.vue'
+// import Condition from './components/Condition.vue'
+import ForLoop from './components/ForLoop.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Home,
+    // Condition,
+    ForLoop
   }
 }
 </script>
